@@ -1,0 +1,13 @@
+<div class="header">
+  <app-card>
+
+    <button id="btn-nav" mat-icon-button aria-label="" (click)="showChats()">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+
+  </app-card>
+
+</div>
+<div class="chats">
+  <button mat-flat-button *ngFor=" let chat of chats" >{{chat}}</button>
+</div>

@@ -1,0 +1,60 @@
+{
+  "Angular": [
+    {
+      "nick": "Joao",
+      "trilha": "Fullstack",
+      "coment": "O curso está sendo ótimo!",
+      "id": "639c"
+    },
+    {
+      "nick": "Maria",
+      "trilha": "Fullstack",
+      "coment": "Tambem, estou gostando muito!",
+      "id": "7600"
+    },
+    {
+      "nick": "Antonio",
+      "trilha": "Fullstack",
+      "coment": "Concordo com Ambos",
+      "id": "dbb0"
+    }
+  ],
+  "TypeScript": [
+    {
+      "nick": "Fernanda",
+      "trilha": "Front-End",
+      "coment": "Estou gostando muito!",
+      "id": "2173"
+    },
+    {
+      "nick": "Marcos",
+      "trilha": "Fullstack",
+      "coment": "Tive algumas duvidas",
+      "id": "85e6"
+    }
+  ],
+  "CSS": [
+    {
+      "nick": "Lucas",
+      "trilha": "Back-End",
+      "coment": "Muito show",
+      "id": "5350"
+    },
+    {
+      "nick": "Eduarda",
+      "trilha": "Ciencia de Dados",
+      "coment": "Empolgante!",
+      "id": "a76b"
+    }
+  ],
+  "foruns": [
+    {
+      "chats": [
+        "Angular",
+        "TypeScript",
+        "CSS"
+      ],
+      "id": "c599"
+    }
+  ]
+}

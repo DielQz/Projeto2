@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('../../../../public/user.png');
+  background-size: cover;
+}
+
+mat-card-title{
+  color: #fff;
+}
+mat-card-subtitle{
+  color: #99c5e2;
+}

@@ -1,27 +1,38 @@
 # Projeto2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+# Projeto de Chat com Angular
 
-## Development server
+Este é um projeto simples desenvolvido com Angular que permite ao usuário se identificar com um nickname e selecionar uma trilha. Esses dados são armazenados no `localStorage`, e em seguida, o usuário é direcionado para uma interface de chat com tópicos disponíveis. O projeto utiliza o **Angular Material** para estilização e o **json-server** para simular um backend.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- **Cadastro de Usuário**: O usuário informa seu nickname e a trilha desejada.
+- **Armazenamento Local**: Os dados do usuário (nickname e trilha) são armazenados no `localStorage` do navegador.
+- **Exibição de Cartão**: Após a identificação, é exibido um cartão com as informações do usuário.
+- **Menu Lateral (Aside)**: O menu exibe tópicos de chat (atualmente os botões não estão funcionais).
+- **Chat Simulado**: O usuário pode participar de um chat, visualizar o histórico de mensagens e postar novos comentários usando as credenciais armazenadas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- **Angular**: Framework para desenvolvimento do frontend.
+- **Angular Material**: Biblioteca de componentes visuais para a interface.
+- **json-server**: Utilizado para simulação de um backend para o chat.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como Executar o Projeto
 
-## Running unit tests
+### Requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js
+- Angular CLI
+- json-server
 
-## Running end-to-end tests
+## Funcionalidades Futuras
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Implementação dos botões do menu lateral (tópicos do chat).
+- Melhorias na interface do usuário.
+- Integração com backend real para persistência dos dados do chat.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Observação
+
+- O arquivo db.json contém o modelo do banco de dados

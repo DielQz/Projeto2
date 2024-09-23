@@ -1,0 +1,10 @@
+<mat-card appearance="outlined" *ngFor="let post of posts">
+  <mat-card-header >
+    <mat-card-title style="color: #0dd;">{{post.nick}}</mat-card-title>
+    <mat-card-subtitle style="color: #6c6a6a;">{{post.trilha}}</mat-card-subtitle>
+    <mat-card-content>
+      <p style="color: white;">{{post.coment}}</p>
+    </mat-card-content>
+  </mat-card-header>
+</mat-card>
+

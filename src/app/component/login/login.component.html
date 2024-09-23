@@ -1,0 +1,25 @@
+<!-- titulo -->
+<h1>Bem vindo!</h1>
+<h2>Entre no fórum da Residência</h2>
+
+<mat-form-field appearance="outline">
+  <mat-label>Nickname</mat-label>
+  <input matInput [(ngModel)]="nick">
+</mat-form-field>
+<mat-form-field>
+  <mat-label>Trilha</mat-label>
+  <mat-select [(ngModel)]="trilhaSelecionada">
+    <mat-option value="Provimento de Serviços">Provimento de Serviços</mat-option>
+    <mat-option value="Fullstack">Fullstack</mat-option>
+    <mat-option value="Ciência de Dados">Ciência de Dados</mat-option>
+    <mat-option value="Testes de Software">Testes de Software</mat-option>
+    <mat-option value="Front-End">Front-End</mat-option>
+    <mat-option value="Mobile">Mobile</mat-option>
+    <mat-option value="Back-End">Back-End</mat-option>
+  </mat-select>
+</mat-form-field>
+<section>
+  <div class="example-button-row">
+    <button (click)="entrar()" mat-stroked-button>Entrar</button>
+  </div>
+</section>

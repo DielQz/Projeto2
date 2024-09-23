@@ -1,0 +1,7 @@
+:host{
+
+  & div {
+    /* box-shadow: 10px 5px 5px #fff; */
+    /* filter: drop-shadow(0 0 2px #fff); */
+  }
+}

@@ -1,0 +1,7 @@
+app-chat{
+  z-index: 0;
+}
+
+app-sidenav{
+  z-index: 5;
+}
